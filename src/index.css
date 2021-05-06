@@ -68,7 +68,7 @@ code {
   z-index: 10;
 }
 
-.tooltip-down{
+.tooltip-bottom{
   position: absolute;
   bottom: -65px;
   transform: rotate(-180deg);

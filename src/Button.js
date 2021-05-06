@@ -41,7 +41,11 @@ class Button extends Component {
                  {this.state.hover? <Tooltip  position =  {this.state.position} />:null}
                 
                 </div>
-                <input type="text" onKeyUp={this.handleInputChange} style={{marginTop:'100px'}} placeholder="Enter tooltip position" />
+                <div style={{marginTop:'100px'}}>
+                    <div>Enter any one position value among these 4 values 'top', 'right', 'bottom', 'left'</div>
+                    <input type="text" onKeyUp={this.handleInputChange} placeholder="Enter tooltip position" />
+                </div>
+               
             </div>
             
         );
